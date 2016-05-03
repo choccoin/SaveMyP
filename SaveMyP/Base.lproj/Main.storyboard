@@ -26,16 +26,28 @@
                                     <rect key="frame" x="163" y="289" width="74" height="21"/>
                                 </variation>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="APf-3m-Fc5">
+                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="140" y="358" width="121" height="29"/>
+                                </variation>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="8wj-p0-3eB"/>
+                                <exclude reference="APf-3m-Fc5"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="8wj-p0-3eB"/>
+                                <include reference="APf-3m-Fc5"/>
                             </mask>
                         </variation>
                     </view>
